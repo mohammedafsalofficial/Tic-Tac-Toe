@@ -22,6 +22,7 @@ Players can input their moves by specifying the square in the board.
 * Validates user inputs to ensure a valid move.
 * Determines the winner or declares a draw when the game is over.
 * Offers the option to play again after the game ends.
+* Can play against AI Computer
 
 ## Project Structure
 The project consists of the following files:
