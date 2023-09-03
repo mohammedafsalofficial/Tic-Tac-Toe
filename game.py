@@ -1,5 +1,5 @@
 import time
-from player import HumanPlayer, RandomComputerPlayer
+from player import HumanPlayer, RandomComputerPlayer, AIComputerPlayer
 
 
 class TicTacToe:
@@ -98,7 +98,7 @@ def play(game, x_player, o_player, print_game=True):
 
 
 if __name__ == '__main__':
-    x_player = HumanPlayer('X')
-    o_player = RandomComputerPlayer('O')
+    x_player = RandomComputerPlayer('X')
+    o_player = AIComputerPlayer('O')
     tic_tac_toe_game = TicTacToe()
     play(tic_tac_toe_game, x_player, o_player, print_game=True)
